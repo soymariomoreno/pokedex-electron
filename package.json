@@ -1,0 +1,19 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "ejemplo de una app con electron",
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron .",
+    "electron-build": "electron-packager . --platform=darwin && electron-packager . --platform=win32"
+  },
+  "author": "mariomoreno",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-packager": "^14.0.6"
+  },
+  "dependencies": {
+    "electron-builder": "^21.2.0"
+  }
+}
